@@ -1,6 +1,5 @@
-n = int(input())
-m = int(input())
-for i in range(n):
-    for j in range(m):   # вложенный цикл
-        print('*', end='')
-    print()
+numbers = [1,2,3,4,9,16]
+b = []
+for i in numbers:
+    b.append(i**2)
+    print(b)
